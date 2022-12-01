@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+html, body {
+    height: 100%;
+}
+body{
+    background-color:#e0e8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kart {
+    background-color: azure;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.ust {
+    background-image: url("./images/illustration-hero.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 40%;
+    border-radius: 20px 20px 0 0;
+}
+.alt {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 60%;
+    
+}
+.music-content{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f5f7ff;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.plan-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+.plan{
+    font-weight: 900;
+    color: #1f2f56;
+}
+.price{
+    font-size: 15px;
+    color:#7280a7;
+}
+.change{
+    text-decoration:underline;
+    color:	#3829e0;
+    font-size: 13px;
+    font-weight: 900;
+}
+button {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #3829e0;
+    border: none;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 900;
+    box-shadow: 0 15px 20px 15px rgba(56,41,224,0.15);
+}
+.title {
+    text-align: center;
+    font-size: 24px;
+    padding: 25px 0 0px;
+    font-weight: 700;
+    color: #1f2f56 ;
+    text-shadow: 1px 1px #7280a7;
+} 
+.description {
+    text-align: center;
+    padding: 15px 55px;
+    color: #7280a7;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.music-left{
+    display: flex;
+    gap: 15px;
+}
+.cancel{
+   text-align: center;
+   margin: 15px;
+   color: #7280a7;
+   font-weight: 900;
+   font-size: 12px;
+   text-transform: capitalize;
+}

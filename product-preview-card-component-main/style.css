@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kart {
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    display: flex;
+}
+
+.sol, .sag {
+    flex: 1;
+}
+
+.sol {
+    background-image: url("./images/image-product-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    
+}
+.sag {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.sag > h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: grey;
+
+}
+.sag > h1 {
+    text-transform: capitalize;
+}
+.sag > p {
+    text-align: justify;
+}
+.fiyat-alani {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.gercek {
+    font-size: 29px;
+    color: green;
+    font-weight: 500;
+}
+.indirim {
+    text-decoration: line-through;
+}
+button {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: green;
+    border: none;
+    color: white;
+}
